@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Navega Mobile",
+    "slug": "navega-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": { "backgroundColor": "#F4F6FB" },
+    "assetBundlePatterns": ["**/*"]
+  }
+}
