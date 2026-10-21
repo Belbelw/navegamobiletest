@@ -1,8 +1,40 @@
-> Why do I have a folder named ".expo" in my project?
-The ".expo" folder is created when an Expo project is started using "expo start" command.
-> What do the files contain?
-- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
-- "settings.json": contains the server configuration that is used to serve the application manifest.
-> Should I commit the ".expo" folder?
-No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
-Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
+# Navega Mobile
+
+**Aluna:** Maria Izabel Araujo  
+**Versão:** 1.0
+
+## Sobre o projeto
+Aplicativo mobile demonstrativo com tela de login, Home, Sobre e Contato. O objetivo é praticar navegação entre telas, Toolbar, validação de campos e estilização com `StyleSheet`.
+
+## Tecnologia
+- React Native
+- Expo
+- React Navigation
+- StyleSheet
+
+## Como executar
+1. Instale o Node.js e o Expo.
+2. Abra a pasta do projeto no terminal.
+3. Execute `npm install`.
+4. Execute `npx expo start`.
+5. Leia o QR Code com o aplicativo Expo Go ou use um emulador compatível.
+
+## Credenciais de teste
+- Usuário: `aluno`
+- Senha: `123456`
+
+O login é apenas uma simulação. Não utiliza banco de dados, API ou armazenamento persistente.
+
+## Estrutura
+- `App.js`: configuração de navegação e Toolbar.
+- `src/pages/`: telas Login, Home, Sobre e Contato.
+- `src/components/`: botão reutilizável.
+- `src/styles/`: cores e estilos compartilhados.
+
+## Funcionalidades
+- Validação de usuário e senha.
+- Mensagens para campos vazios e credenciais inválidas.
+- Navegação entre Home, Sobre e Contato.
+- Botão para limpar os campos do login.
+- Estilos reutilizáveis definidos com `StyleSheet`.
+- Ação para abrir o aplicativo de e-mail do dispositivo.
