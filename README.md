@@ -38,3 +38,8 @@ O login é apenas uma simulação. Não utiliza banco de dados, API ou armazenam
 - Botão para limpar os campos do login.
 - Estilos reutilizáveis definidos com `StyleSheet`.
 - Ação para abrir o aplicativo de e-mail do dispositivo.
+
+![Tela de login](LOGIN.jpeg)
+![Acesso](ACESSO.jpeg)
+![Sobre o Navega Mobile](SOBRE.jpeg)
+![Meios de Comunicação](CONTATO.jpeg)
